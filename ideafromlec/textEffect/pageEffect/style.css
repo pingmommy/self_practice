@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.stage {
+  display: flex;
+  width: 100vw;
+  flex-wrap: wrap;
+}
+
+.stage > div {
+  width: 100px;
+  height: 100px;
+  background-color: lightpink;
+  flex-shrink: 0;
+}

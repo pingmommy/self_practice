@@ -1,0 +1,14 @@
+<svg width="1280" height="418" viewBox="0 0 1280 418" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path id="route" d="M1 417C189.774 -133.828 1035.48 -136.682 1279 402.73" stroke="black"/>
+</svg>
+
+
+            <!-- d="M1 186C481 -124 1137 20.0001 1417 150" -->
+
+
+<svg width="1400" height="262" viewBox="0 0 1400 262" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path id="route" d="M1 261C355 -84.5179 1007 -84.5179 1399 254.158" stroke="black"/>
+</svg>
+
+
+box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;

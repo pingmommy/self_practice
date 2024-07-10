@@ -1,0 +1,77 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.item {
+  width: 100px;
+  height: 100px;
+  background-color: #f0f0f0;
+  text-align: center;
+  line-height: 100px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.item:hover {
+  transform: translateY(-10px);
+}
+
+.modal {
+  display: none;
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: rgb(233, 173, 206);
+  padding: 20px;
+  position: relative;
+  width: 95%;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+iframe {
+  width: 100%;
+  height: 600px;
+  border: none;
+  opacity: 0;
+}
+
+.three-d-div {
+  width: 200px;
+  height: 300px;
+  background-color: #e5c1c5;
+  border-radius: 10px; /* 둥근 모서리 */
+  box-shadow: inset 10px 10px 15px rgba(213, 160, 166, 0.6),
+    /* 오른쪽 아래 안쪽 그림자 */ inset -10px -10px 15px
+      rgba(255, 255, 255, 0.6); /* 왼쪽 위 안쪽 그림자 */
+  /* border: 1px solid rgba(213, 160, 166, 0.3); 배경색과 유사한 테두리 */
+  /* background: linear-gradient(145deg, #e5c1c5, #f0d6da); */
+}
+
+.box1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(100px, 168px) rotate(9deg);
+}
